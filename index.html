@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <link href="bootstrap.min.css" type="text/css" rel="stylesheet">
+    <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <script src="index.js"></script>
+    <link  href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/d4202ddb56.js" crossorigin="anonymous"></script>
+
+    <!-- --------------- nav bar ---------------------------- -->
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg" style="background-color:#2b4e31; text-align: center;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: #CBB996"><strong>YÖ</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">design proj</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#animation">3D modeling / animation portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#publications">publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact me</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+<!-- -------------- home ---------------------- -->
+<div class="header-text">
+  <h1><span> <img class="name" src="name.png"> </span><i class="fa-solid fa-gears"></i></h1>
+  <h4> a mechanical engineer interested in the unique blend 
+    <br>between understanding how our world moves, <br>how it breaks, 
+    and how we perceive it. </h4>
+</div>
+
+<!-- -------------- about ---------------------- -->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img class="about-photo" src="headshots/yagmur.HEIC">
+      </div> 
+      <div class="about-col-2">
+        <h1 class="sub-title">about me</h1>
+        <p class="aboutmeinfo"> I am a mechanical 
+          engineering student at Purdue University with experiences in undergraduate 
+          research within engineering education and sports engineering as well as an 
+          internship with Wilson Sportings Goods Co. as a plastics engineer. My motivations 
+          in my studies are that I am inherently curious about understanding dynamic movement, 
+          specifically with how the human body moves mechanically such as through skateboarding, 
+          rock climbing, at impacts (football tackles), and more in the sphere of biomechanics.
+          <br><br>
+          In conjuction with my engineering pursuits, I enjoy practicing art. 
+          This ranges from studying animation technology to practicing urban sketching. 
+          A lot of my artistic pursuits are inspired by Pixar films. More specifically, Pixar’s 
+          Soul inspired me to seek out how I could combine my interests in engineering with 
+          creative storytelling. 
+          </p>
+
+
+          <div class="quick-info">
+            <p class="tabs"><span class="tab-section">technical skills:</span> MATLAB | LabVIEW | R Programming | 3Ds Max | NX Siemens Software | Excel</p>
+            <p class="tabs"><span class="tab-section">extracurriculars:</span> GEARE Ambassador | Women in Mechanical Engineering Taskforce 
+            </p>
+            <p class="tabs"><span class="tab-section">awards:</span> Outstanding Sophomore & Junior in ME Finalist | Undergraduate Award for Humanities & STEM Research</p>
+          </div>
+      </div> 
+    </div>
+  </div>
+</div>
+
+
+<!-- -------------projects------------- -->
+<div id="projects">
+<h1 class="sub-title" id="proj-title">projects</h1>
+<div class="container d-flex justify-content-center mt-5">
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Impact Absorbing Crutch
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+      <div class="accordion-body">
+        In a team of 4, we designed a modified crutch to support feelings of discomfort and immobility.
+        <br>
+        <br>
+        <strong>Tools:</strong> Univariate data analysis in <u>Excel</u> to target user needs; <u>Siemens NX</u> animations to display 
+        product functions; Construction of <u>low & medium fidelity prototypes</u> from recycled crutches and 3D printed parts
+        <br>
+        <a href="https://www.youtube.com/watch?v=wlrl_u0AOE4&t=1s" target="_blank"  >Zoom Animation Handle</a>
+        <br>
+        <a href="https://www.youtube.com/watch?v=VtoBxmHx6KE" target="_blank"  >Zoom Animation Rocker</a>
+        <br>
+        <img class="crutch1" src="images/crutch1.jpeg" >
+        <img class="crutch2" src="images/crutch2.png" >
+        <img class="crutch3" src="images/crutch3.png" >
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Purdue Pete's Hammer
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
+      <div class="accordion-body">
+        A Purdue Mechanical Engineering tradition, I machined a 9.5 inch aluminum hammer with a mirror finish.
+        <br>
+        <br>
+        <strong>Tools:</strong> Mill & Lathe 
+        <br>
+        <img class="hammer1" src="images/hammer1.png" >
+        <img class="hammer2" src="images/hammer2.png" >
+        <img class="hammer3" src="images/hammer3.png" >
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Lego Ironman
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Designed a 120-piece Lego-like figure of Ironman. 
+        <br>
+        <br>
+        <strong>Tools:</strong> Siemens NX Modeling
+        <br>
+        <a href="https://www.youtube.com/watch?v=Ez08Ip5U8sU" target="_blank"  >NX - Assembly Sequence</a>
+        <br>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        Anger Management, Making My Own Tennis Racket
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        The project that led me to pursue engineering, I molded and casted my dad’s old Prince racquet to create my own sculpture.
+        <br>
+        <br>
+        <strong>Tools:</strong> Molding with fiberglass cloth and plaster, casting with fiberglass cloth and fiberglass resin
+
+        <br>
+        <img class="tennis1" src="images/tennis1.png" >
+        <img class="tennis2" src="images/tennis2.png" >
+        <img class="tennis3" src="images/tennis3.png" >
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+<!-- -------------3d proj------------- -->
+<div id="animation">
+  <h1 class="sub-title" id="proj-title">3D modeling & animation</h1>
+  <div class="container d-flex justify-content-center mt-5">
+  <div class="accordion mt-5" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Coinopia: A Currency Adventure (Sneak Peek)
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+        <div class="accordion-body">
+          Constructed video game level from scratch in Unity utilizing C Programming & ChatGPT Prompt Engineering 
+          <br>
+        <br>
+        <strong>Tools:</strong> Unity Software, Mixamo Animations, ChatGPT, C Programming Language  
+        <br>
+        <a href="https://youtu.be/dxVgN2bTgOA" target="_blank"  >Video Animation</a>
+        <br>
+        <img class="fall" src="images/coin.png">
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSix">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          Your Neighborhood ASL Teacher
+        </button>
+      </h2>
+      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          First individual project from idea conceptualization/brainstorming, sketching, modeling, rigging, and animation.
+          <br>
+          <br>
+          <strong>Tools:</strong> 3D Modeling, 3Ds Max, Animation, Character Rigging, Idea Conceptualization, Camera Placement
+          <br>
+          <a href="https://youtu.be/GuFw81WYlwc" target="_blank"  >Video Animation</a>
+          <br>
+          <img class="asl" src="images/asl.png">
+         </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSeven">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          Tomb Raider
+        </button>
+      </h2>
+      <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Utilizing free and target lights to set mood & environment in Tomb Raider scene.
+          <br>
+          <br>
+          <strong>Tools:</strong> 3D Modeling, 3Ds Max, Animation, Lighting, Camera Placement
+          <br>
+          <a href="https://youtu.be/2jef6sxKCCs" target="_blank"  >Video Animation</a>
+          <br>
+          <img class="tomb" src="images/tomb.png">
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingEight">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+          Pacman
+        </button>
+      </h2>
+      <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Learning how to design and animate complex objects while altering object visibility.
+          <br>
+          <br>
+          <strong>Tools:</strong> 3D Modeling, 3Ds Max, Complex Body Animation
+          <br>
+          <a href="https://www.youtube.com/watch?v=8l15o2Zw0x0&t=4s" target="_blank"  >Video Animation</a>
+          <br>
+          <img class="pacman" src="images/pacmna.png">
+         </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingNine">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+          It’s All Falling Into Place
+        </button>
+      </h2>
+      <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Practice with Unity software in physics simulations and manipulating material properties 	
+          <br>
+          <br>
+          <strong>Tools:</strong> C Programming Language, Unity Software, Physics Simulation, Camera Placement
+          <br>
+          <a href="https://youtu.be/yM2dXX3Tzd0" target="_blank"  >Video Animation</a>
+          <br>
+          <img class="fall" src="images/fall.png">
+         </div>
+      </div>
+    </div>
+   
+  </div>
+  </div>
+  </div>
+
+  <!-- -------------publications------------- -->
+  <div id="publications">
+    <h1 class="sub-title" id="proj-title">publications</h1>
+    <div class="list-group">
+      <a href="https://peer.asee.org/44181" target="_blank" class="list-group-item list-group-item-action">Önder, Y., & Bhide, N., & Radhakrishnan, D. B., 
+        & Deboer, J. (2023, June), <i>Rethinking Spatial Visualization Assessments: Centering Recognized Prior Knowledge in 
+        2D/3D Curriculum Development</i> Paper presented at 2023 ASEE Annual Conference & Exposition, Baltimore , 
+        Maryland.</a>
+      <a href="https://peer.asee.org/44071" target="_blank" class="list-group-item list-group-item-action">Bhide, N., & Önder, Y., & Free, S., & Dunham, M., & Radhakrishnan, 
+        D. B., & Deboer, J. (2023, June), <i>The Curriculum Puzzle: Developing and Integrating Materials to Localize a Curriculum</i> Paper 
+        presented at 2023 ASEE Annual Conference & Exposition, Baltimore , Maryland. </a>
+      <a href="https://peer.asee.org/41888" target="_blank" class="list-group-item list-group-item-action">Onder, Y. (2022, August), <i>How Turkish Am I?: A 2nd-Generation Turkish-American Woman’s 
+        Identity Navigation Through Mechanical Engineering Education (Diversity)</i> Paper presented at 2022 ASEE Annual Conference & Exposition, Minneapolis, MN</a>
+    </div>
+  </div>
+
+  <!-- ---------contact--------------- -->
+  <div id="contact">
+    <div class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">contact me</h1>
+            <a href="images/yagmurResume.pdf" download class="btn">Download CV/Resume</a>
+            <p style="color:rgb(23,23,23)"><i class="fa-regular fa-paper-plane"></i></i> yonder@purdue.edu</p>
+            <p style="color:rgb(23,23,23)"><i class="fa-solid fa-phone"></i> +1 304-282-0350</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/yagmuronder"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            
+          </div>
+          
+        </div>
+      </div>
+      <div class="copyright">
+        <p>made by damla and made with <i class="fa-regular fa-heart"></i></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+
